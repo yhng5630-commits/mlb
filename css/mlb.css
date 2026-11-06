@@ -22,6 +22,7 @@ time, mark, audio, video {
     background:transparent;
     box-sizing: border-box;
 }
+
 *{margin: 0; padding: 0;}
 body{line-height:1;
     font-family: "Pretendard Variable", Pretendard, sans-serif;

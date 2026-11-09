@@ -454,8 +454,6 @@ input {
         object-position: center;
     }
 
-}
-
     .hero-inner {
         align-items: flex-end;
     }
@@ -490,7 +488,6 @@ input {
         color: #111;
     }
 }
-
 
 /* 5. RESCENE PICK 섹션 (호버 이미지 교체 + 확대 카드) */
 
@@ -739,7 +736,11 @@ input {
     width: 100%;
     height: 100%;
 }
-
+.new-arrival .accordion-item picture {
+    display: block;
+    width: 100%;
+    height: 100%;
+}
 /* 배너 이미지 */
 .new-arrival .accordion-item img {
     display: block;
@@ -1426,6 +1427,7 @@ input {
     display: -webkit-box;
     -webkit-box-orient: vertical;
     -webkit-line-clamp: 2;
+    line-clamp: 2;
 
     overflow: hidden;
     text-overflow: ellipsis;

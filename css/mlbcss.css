@@ -436,14 +436,25 @@ input {
 
 /* =========================================
    MOBILE - 360px 디자인 기준
-========================================= */
-
-@media (max-width: 768px) {
+========================================= */ 
+    /* HERO VISUAL - 모바일 */
+@media (max-width: 767px) {
 
     .hero-visual {
-        aspect-ratio: auto;
-        height: 480px;
+        width: 100%;
+        height: auto;
+        aspect-ratio: 1 / 1;
+        overflow: hidden;
     }
+
+    .hero-slide img {
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+        object-position: center;
+    }
+
+}
 
     .hero-inner {
         align-items: flex-end;
